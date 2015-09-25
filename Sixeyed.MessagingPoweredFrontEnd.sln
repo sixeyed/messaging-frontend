@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{3233E8FA-7BB9-415A-8777-C873DBB32A99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sixeyed.MessagingPoweredFrontEnd.Core", "Sixeyed.MessagingPoweredFrontEnd.Core\Sixeyed.MessagingPoweredFrontEnd.Core.csproj", "{80A6BBE2-7D5B-459E-8FD0-43D260458CCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sixeyed.MessagingPoweredFrontEnd.Contracts", "Sixeyed.MessagingPoweredFrontEnd.Contracts\Sixeyed.MessagingPoweredFrontEnd.Contracts.csproj", "{0E11CADD-F50B-43E0-AEF3-BAF3DFB34E54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{EEFC30DA-7414-4AA4-8B83-51356F852B6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Handlers", "Handlers", "{FC3CC807-758B-47F8-9F5C-F70EDC3D375F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sixeyed.MessagingPoweredFrontEnd.Handlers.Persistence", "Sixeyed.MessagingPoweredFrontEnd.Handlers.Persistence\Sixeyed.MessagingPoweredFrontEnd.Handlers.Persistence.csproj", "{D23D921F-1F9E-424F-9587-1E776D3E53B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sixeyed.MessagingPoweredFrontEnd.Web", "Sixeyed.MessagingPoweredFrontEnd.Web\Sixeyed.MessagingPoweredFrontEnd.Web.csproj", "{3094066E-35D9-4427-AEA4-E344DEABDFE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80A6BBE2-7D5B-459E-8FD0-43D260458CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80A6BBE2-7D5B-459E-8FD0-43D260458CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80A6BBE2-7D5B-459E-8FD0-43D260458CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80A6BBE2-7D5B-459E-8FD0-43D260458CCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E11CADD-F50B-43E0-AEF3-BAF3DFB34E54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E11CADD-F50B-43E0-AEF3-BAF3DFB34E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E11CADD-F50B-43E0-AEF3-BAF3DFB34E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E11CADD-F50B-43E0-AEF3-BAF3DFB34E54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D23D921F-1F9E-424F-9587-1E776D3E53B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D23D921F-1F9E-424F-9587-1E776D3E53B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D23D921F-1F9E-424F-9587-1E776D3E53B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D23D921F-1F9E-424F-9587-1E776D3E53B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3094066E-35D9-4427-AEA4-E344DEABDFE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3094066E-35D9-4427-AEA4-E344DEABDFE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3094066E-35D9-4427-AEA4-E344DEABDFE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3094066E-35D9-4427-AEA4-E344DEABDFE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80A6BBE2-7D5B-459E-8FD0-43D260458CCB} = {3233E8FA-7BB9-415A-8777-C873DBB32A99}
+		{0E11CADD-F50B-43E0-AEF3-BAF3DFB34E54} = {3233E8FA-7BB9-415A-8777-C873DBB32A99}
+		{D23D921F-1F9E-424F-9587-1E776D3E53B9} = {FC3CC807-758B-47F8-9F5C-F70EDC3D375F}
+		{3094066E-35D9-4427-AEA4-E344DEABDFE1} = {EEFC30DA-7414-4AA4-8B83-51356F852B6D}
+	EndGlobalSection
+EndGlobal
