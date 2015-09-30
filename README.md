@@ -52,7 +52,7 @@ with credentials *guest/guest* and check out the queues, exhchanges etc.
 If you want to query the data in HBase, connect to the container and query the data in the *mail* table:
 
 + docker ps -> to get the {instance ID} of your HBase container
-+ docker exex -it {instance ID} /opt/hbase/bin/hbase shell
++ docker exec -it {instance ID} /opt/hbase/bin/hbase shell
 + scan 'mail'
 
 
